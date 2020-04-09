@@ -2,9 +2,6 @@
 
 https://terraform.io/
 
-## Prerequisite
-Terraform version >= 0.12
-
 ## How to launch terraform
 
 Configure AWS credentails:
@@ -20,9 +17,7 @@ Commands
 ```
 terraform plan                  -   Give an idea about the resources to be created, deleted, modified.
 
-terraform workspace select/list -  Select workspace (useful for creating different environments without duplicating the terraform files)
-
-terraform validate              -  Validates local configuration without touching the remote state
+terraform workspace select/list -  Select workspace (usefule for creating different environments without duplicating the terraform files)
 
 terraform apply                 -  Apply the terraform on the infrastructure.
 
