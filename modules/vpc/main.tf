@@ -4,7 +4,7 @@
  * Module example:
  *
  *     module "foo" {
- *       source          = "../modules/vpc"
+ *       source          = "./modules/vpc"
  *       vpc_name        = "foo"
  *       project_name    = "foo"
  *       cidr            = "10.10.10.0/16"
