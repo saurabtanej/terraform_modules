@@ -6,4 +6,4 @@ vpc_public_cidr_blocks  = ["10.30.0.0/24", "10.30.1.0/24", "10.30.11.0/24"]
 aws_region              = "eu-west-1"
 
 #SG Parameters to provide access to self IP
-my_ip                   = ["10.30.6.0/24"]
+my_ip = ["10.30.6.0/24"]
